@@ -1,0 +1,86 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+
+body, .listaTarefa li {
+    background-color: #f0f8ff;
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.grupo {
+    background-color: aquamarine;
+    margin: 0 auto;
+    width: 100%;;
+    max-width: 450px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding: 70px;
+    text-align: center;
+}
+
+.grupo, .conteudo input, .conteudo button, .listaTarefa li, li button {
+    border-radius: 12px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;   
+}
+
+.conteudo input {
+    width: 350px;
+    padding: 15px;
+    outline: none;
+    font-size: 1.2rem; 
+}
+
+.conteudo button {
+    width: 45px;
+    outline: none;
+}
+
+.conteudo button:hover {
+    background-color: #c7c4c4;
+    cursor: pointer;
+}
+
+.conteudo input, .conteudo button, li button {
+    border: 1px solid #808080;
+}
+
+.listaTarefa {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listaTarefa li{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;  
+}
+
+li button{
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+i {
+    pointer-events: none;
+}
+
+li button:hover {
+    background-color: #c7c4c4;
+}
+
+.completed {
+    text-decoration: line-through;
+}
